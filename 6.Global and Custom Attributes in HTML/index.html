@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global and Custom Attributes</title>
+</head>
+<body>
+    <!--! Global and Custom attributes in HTML..... -->
+    <!-- HTML attributes provide additional information about HTML elements. We can change behaviour of our HTML elements and with the help of attribute we can change style or display of our html elements. --> 
+
+    <!--todo Example :---  -->
+    <p style="color:orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, architecto ab in, iste sunt fuga quos a sit dolores iusto, fugiat magnam nobis voluptatum quis esse repellendus maiores dolore beatae.</p>
+    <!--! In above p tag we are using style attribute to give orange color for text. -->
+    <a href="https:/www.google.com" style="color: hotpink;">Google Website</a> 
+    <!--! In anchor tag we are using href attribute and style attribute. --> 
+
+    <!--********* If we give href attribute t p tag than see what happen************************ -->
+    <p href="https:/www.google.com" style="color:orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, architecto ab in, iste sunt fuga quos a sit dolores iusto, fugiat magnam nobis voluptatum quis esse repellendus maiores dolore beatae.</p> 
+    <!--? We see that href attribute are not work in p tag because it was ignore by browser and it was custom attribute and style was global attribute --> 
+
+
+   
+    <!--? 1. Global attributes -->
+    <!-- The global attributes are attributes that can be used with all HTML elements. -->
+    <!-- for example style attribute , title attribute etc. --> 
+
+    <p hidden>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, animi.</p> 
+    <!-- These hidden attribute will help to hide HTML Elements from our screen . hidden was also global attribute. -->
+    <!-- In hidden we don't have to give value so there are attribute in which we don't have to give value. --> 
+
+    <p title="HTML Defination">HTML was basic building block of our Website</p>
+    <!-- title attribute was also global attribute when we hover over any the content of any HTML element than it give tooltip for that.... -->
+       
+    <!--! Most important two gloabal attribute was :----  -->
+    <!--** 1.) id attribute and 2.) class attribute -->
+
+    <!--todo *** Mainly we use id and class attribute for Styling only we use in CSS mainly... *****  -->
+    <!--** id attribute -->
+    <!-- id attribute was used to target that particular html element than applying styling on that.So, basically id attribute should be unique we cannot give same name to other html element if we want to give styling that element separately than we use id attribute. -->
+    <p id="orangeInColor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse.</p>
+    <!--? We give these paragraph id = "orangeInColor" --> 
+
+    <!--** class attribute -->
+    <!--class attribute was also target and used to give styling on that particular html element. The name it's own suggest meaning of the attribute and what it does. If we want to apply same styling to group of html element than we use class attribute. -->
+    <p class="redInColor">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="redInColor">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="redInColor">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="redInColor">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="redInColor">Lorem ipsum dolor sit amet consectetur.</p> 
+    <!-- ? We give above group of paragraph elements the same class = "redInColor" -->
+  
+    <!--! data attribute -->
+    <!--? These data attribute we are using for specially for Javascript. -->
+    <!--? The data-* attribute is used to store custom data private to the page or application. -->
+    <!--? The data-* attribute gives us the ability to embed custom data attributes on all HTML elements.  -->
+    <!-- The stored (custom) data can then be used in the page's JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries). -->
+
+    <p data-title="some dummy words">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat unde alias corrupti omnis in sint, laudantium veritatis atque, et asperiores quae sunt quia nostrum excepturi.</p>
+   
+    <!--! The data-* attribute consist of two parts: -->
+    <!--! The attribute name should not contain any uppercase letters, and must be at least one character long after the prefix "data-" -->
+    <!--! The attribute value can be any string -->
+
+    <!--? 2. Specific attributes -->
+    <!-- Some HTML Elements have it's own attribute which work on that particular elements only not on everyone that attributes are called specific  attributes. -->
+    <!-- for example href attribute , target attribute are specifically for a tag or anchor tag.  etc. -->
+    <a href="https:/www.instagram.com" target="_blank">Instagram 🤳</a>  <!--? These attribute href  and target are specific we cannot use these attribute on other html elements.--> 
+
+
+    <!--? 3. Custom attributes -->
+    <!-- We can create our custom attribute and  we can give html elements our own-named-attributes and we can do styling and manipulate from javascript also. -->
+    <!--** Example -->
+    <p anilKapoor = "Jhakaaas">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, fugit.</p>
+    <!--? In these p element we create custom attribute which name was anilKapoor and it's value was "Jhakaaas" -->
+    <!--! These was valid attribute in terms of CSS and Javascript but in HTML these type of attribute or these type of specification was not exist --> 
+    <!-- ? These p element was parse by browser also , So it was valid attribute.... -->
+</body>
+</html>
