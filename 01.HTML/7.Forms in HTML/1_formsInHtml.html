@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h1>Forms Elements in HTML</h1> 
+
+    <!--! Forms in HTML -->
+    <!-- An HTML form is used to collect information from user input. The user input is most often sent to a server for processing. --> 
+
+    <!--? We use of Form Tag to create forms in our website -->
+     <form action="">
+        <!--todo   *** Inside form tag we use input element with help of these input element we can takes input from user. -->
+        <!-- <input type="text">  -->
+        <!-- These was called the input element where we use type attribute which value was text. with these text type input we can create text field there for user to write whatever they want.  -->
+        <!--! There was different - different type of input fileds . Input Element was create Different - different type of field. This input tag was self closing tag  --> 
+        <!-- <br> 
+        <br> -->
+        <!--------------------------------------------------------------------------------------------->
+        <!-- <input type="text" name="userName" > -->
+        <!--? Now above we create another text type input field and also use another attribute which was "name" --> 
+        <!--** 1.The name attribute specifies the name of an <input> element-->
+        <!--** 2.The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted. -->
+        <!--? ******Note: Only form elements with a name attribute will have their values passed when submitting a form.****** -->
+     </form>
+     <!--! These form has attribute action. These action attribute does or  specifies where to send the form-data when a form is submitted. -->
+    <!--** In these action we give URL of the file where we have to send user input data. -->
+    <!-- URL	Where to send the form-data when the form is submitted. -->
+    <!--? There was two types of URLs -->
+      <!--? 1) An absolute URL - points to another web site (like action="http://www.example.com/example.htm") -->
+      <!--? 2) A relative URL - points to a file within a web site (like action="example.htm") -->
+      <!--? 3) Form was adding Functionality to creating URL when we give URL to action attribute so it create search functionality. --> 
+
+     <!-- <br>
+     <br> -->
+    <!--** Another example of Form  -->
+    <h3>Youtube Search</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" > 
+        <!--! If we want to use button in the form than there was button tag with the help of it we create buttons.  -->
+        <button>Search</button>
+        <!--? This above was button element -->
+    </form> 
+
+    <!--** Form example --: 2 -->
+    <h3>Amazon Search</h3>
+    <form action="https://www.amazon.in/s?k">
+        <input type="text" name="k">
+        <button>Go</button>
+        <!--todo ***** Here was another button element and Button was inline element****** -->
+    </form> 
+
+    <!--! These Form was Block element. -->
+
+    <!--** Form example --: 3 -->
+    <h3>My Form</h3>
+    <form action="/01.HTML/7.Forms in HTML/index.html">
+        <input type="text" name="firstName" > 
+        <input type="text" name="surname"> 
+         <button>Submit</button>
+    </form>
+</body>
+</html>
