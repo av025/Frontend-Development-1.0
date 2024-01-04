@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazon Login Page</title>
 </head>
-<body>
-    
+<body style="text-align: center;">
+    <h1>Amazon Login Page</h1>
+    <form action="/">
+        <h2>Create Account</h2>
+        <br>
+        <br>
+        <label for="userName">Your name</label>
+        <br>
+        <input type="text" name="User_name" id="userName" placeholder="first and last name" required>
+        <br>
+        <br>
+        <label for="phoneNumber">Mobile Number</label>
+        <br>
+        <input type="text" readonly value="IND +91" size="4"> 
+        <input type="tel" placeholder="Mobile Number" min="10" required id="phoneNumber" name="User_phonenumber" required>
+        <br>
+        <br>
+        <label for="userEmail">Email (Optional)</label>
+        <br>
+        <input type="email" name="User_email" id="userEmail"  >
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="User_password" id="password" placeholder="At least 6 Characters" min="6">
+        <br>
+        <br>
+        <br>
+        <input type="checkbox"  id="termsAndCondition" required>
+        <label for="termsAndCondition">Are you approve with our terms and condition.</label>
+        <br>
+        <br>
+        <button>Submit</button>
+
+
+    </form>
+
 </body>
 </html>
