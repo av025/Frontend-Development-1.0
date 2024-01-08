@@ -4,5 +4,9 @@ p {
   /*! If we want to color our text than we use color property of CSS */
   color: indianred;
   /*! If we want to increase font size than we use font-size property of CSS */
-  font-size: 24px;
+  font-size: 32px;
+  /*! If we want to increase thickness or boldness of our Font than we use font-weight property of CSS  */
+  font-weight: 900;
+  /** Default font-weight of Paragraph was 400 */
+  /** Range  value of font-weight was from 100-900 */
 }
