@@ -2,3 +2,11 @@
 /*** In external CSS we are writing our styling part in separate file if we want to style two page same than we link this External CSS with HTML document. */
 
 /*? Here we have to write the same way CSS Selector like. */
+
+h1 {
+  color: crimson;
+}
+
+p {
+  color: lightseagreen;
+}
