@@ -9,4 +9,19 @@ p {
   font-weight: 900;
   /** Default font-weight of Paragraph was 400 */
   /** Range  value of font-weight was from 100-900 */
+  /*! If we want to use decoration in our text than we use text-decoration property. */
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+
+  /*! These Text-decoration was shortcut there was more property in it. */
+  /** The properties are :-  */
+  text-decoration-line: underline; /*? Here we use text-decoration for line and it's value underline. */
+  text-decoration-color: black; /*? Here we use text-decoration color we can give color also. */
+  text-decoration-thickness: initial; /*? Here we use text-decoration thickness if we want to give thickness for our text decoration. */
+  text-decoration-style: dotted; /*? Here we use text-decoration style in what style we want to give decoration */
+
+  /*? If we want to give wavy text decoration */
+  text-decoration: underline wavy; /*! Here we have to give text decoration line too if we want to use wavy other wise it does not do anything. */
+  text-decoration: overline orange wavy;
 }
